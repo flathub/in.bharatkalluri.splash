@@ -1,7 +1,7 @@
 {
     "app-id" : "in.bharatkalluri.splash",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "42",
+    "runtime-version" : "44",
     "sdk" : "org.gnome.Sdk",
     "command" : "splash",
     "finish-args" : [
@@ -18,7 +18,7 @@
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
     ],
     "modules" : [
-    	"python3-requests.json",
+        "python3-requests.json",
         {
             "name" : "splash",
             "builddir" : true,
