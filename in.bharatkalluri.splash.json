@@ -28,6 +28,10 @@
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/Bharatkalluri/splash.git",
                     "commit": "36ac9b04fc630d3471270ddc8e022b4920f0b42f"
+                },
+                {
+                    "type" : "patch",
+                    "path": "fix_appdata.patch"
                 }
             ]
         }
