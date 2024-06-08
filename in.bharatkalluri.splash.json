@@ -1,7 +1,7 @@
 {
     "app-id" : "in.bharatkalluri.splash",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "44",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
     "command" : "splash",
     "finish-args" : [
@@ -28,6 +28,10 @@
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/Bharatkalluri/splash.git",
                     "commit": "36ac9b04fc630d3471270ddc8e022b4920f0b42f"
+                },
+                {
+                    "type" : "patch",
+                    "path": "fix_appdata.patch"
                 }
             ]
         }
